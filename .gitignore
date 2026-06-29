@@ -1,0 +1,21 @@
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.sln
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Build & Dependencies
+node_modules/
+target/
+build/
+.gradle/
+dist/
+
+#Local Environment & Secrets
+.env
+docker/postgres/data
