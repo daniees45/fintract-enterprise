@@ -8,7 +8,7 @@ CREATE TABLE tenants (
     company_name VARCHAR(255) NOT NULL,
     subdomain VARCHAR(255) NOT NULL UNIQUE,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
-    is_active BOOLEAN DEFAULT TRUE NOT NULL
+    is_ active BOOLEAN DEFAULT TRUE NOT NULL
 );
 
 --2. User Accounts (Bounded to Tenants)
